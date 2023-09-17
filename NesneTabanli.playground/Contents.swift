@@ -74,3 +74,58 @@ sahin.hizlan(kacKm: 70)
 sahin.bilgiAl()
 sahin.yavasla(kacKm: 30)
 sahin.bilgiAl()
+
+
+
+class Fonksiyonlar {
+    //geri dönüş değeri olmaysan ( void )
+    func selamla1() {
+        let sonuc = "Merhaba Ahmet"
+        print(sonuc)
+    }
+    func selamla2() -> String {
+        //Geri Dönüş değeri olan  ( return )
+        let sonuc = "Merhaba Ahmet"
+        return sonuc
+    }
+    //Parametre
+    func selamla3(isim:String){
+        let sonuc = "Merhaba \(isim)"
+        print(sonuc)
+    }
+    func toplama(sayi1:Int, sayi2:Int) -> Int {
+        let toplam = sayi1 + sayi2
+        
+        return toplam
+    }
+    
+    //Overloading (Metodların class içinde tekrar tekrar kullanılmasıdır.)
+    func carpma(sayi1:Int,sayi2:Int){
+        print("Sonuc : \(sayi1 * sayi2) ")
+    }
+    func carpma(sayi1:Double,sayi2:Double){
+        print("Sonuc : \(sayi1 * sayi2) ")
+    }
+    func carpma(sayi1:Int,sayi2:Int,isim:String){
+        print("Sonuc : \(sayi1 * sayi2) - İşlemi Yapan \(isim) ")
+    }
+}
+
+let f = Fonksiyonlar()
+
+f.selamla1()
+let gelenSonuc = f.selamla2()
+print("Gelen Sonuc : \(gelenSonuc)")
+
+f.selamla3(isim: "Mehmet")
+
+
+let gelenToplam = f.toplama(sayi1: 34, sayi2: 23)
+print("Gelen Toplam : \(gelenToplam)")
+
+f.carpma(sayi1: 2, sayi2: 2)
+f.carpma(sayi1: 2.2, sayi2: 2.5)
+f.carpma(sayi1: 2, sayi2: 3, isim: "Ömer")
+
+
+
