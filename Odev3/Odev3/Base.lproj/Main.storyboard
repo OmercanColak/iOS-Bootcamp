@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3lh-Je-Ud1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Odev3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Golden Dragon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oje-Vc-X9e">
+                                <rect key="frame" x="116" y="108" width="181.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sushi" translatesAutoresizingMaskIntoConstraints="NO" id="xBE-fH-bCg">
+                                <rect key="frame" x="82" y="141.5" width="250" height="250"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ime-Ax-DOh">
+                                <rect key="frame" x="53" y="407.5" width="308" height="34.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKu-cU-fxG">
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="34.5"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="6 Pieces"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vei-qh-bSe">
+                                        <rect key="frame" x="108" y="0.0" width="92" height="34.5"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="8 Pieces"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pjg-MO-INI">
+                                        <rect key="frame" x="216" y="0.0" width="92" height="34.5"/>
+                                        <color key="backgroundColor" name="anaRenk"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="12Pieces"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbv-tz-Eom">
+                                <rect key="frame" x="173.5" y="458" width="67.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dA8-8N-U5O">
+                                <rect key="frame" x="149.5" y="500.5" width="115" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 7.86 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cE-hB-RtE">
+                                <rect key="frame" x="159.5" y="597" width="95" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Sushi in Town!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLw-U2-UiE">
+                                <rect key="frame" x="32" y="552.5" width="350" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" name="yaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIw-yt-KlR">
+                                <rect key="frame" x="151.5" y="665" width="111.5" height="34.5"/>
+                                <color key="backgroundColor" name="anaRenk"/>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Add to Cart"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oje-Vc-X9e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="BWl-r7-HTg"/>
+                            <constraint firstItem="VIw-yt-KlR" firstAttribute="top" secondItem="5cE-hB-RtE" secondAttribute="bottom" constant="32" id="D0R-ij-GVx"/>
+                            <constraint firstItem="Ime-Ax-DOh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Id9-6U-DJW"/>
+                            <constraint firstItem="dA8-8N-U5O" firstAttribute="centerX" secondItem="pbv-tz-Eom" secondAttribute="centerX" id="M3t-6d-hZ4"/>
+                            <constraint firstItem="5cE-hB-RtE" firstAttribute="top" secondItem="qLw-U2-UiE" secondAttribute="bottom" constant="18" id="NSe-dZ-FpW"/>
+                            <constraint firstItem="xBE-fH-bCg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="REA-QT-5gR"/>
+                            <constraint firstItem="xBE-fH-bCg" firstAttribute="top" secondItem="oje-Vc-X9e" secondAttribute="bottom" constant="2" id="TSO-Pp-oPp"/>
+                            <constraint firstItem="qLw-U2-UiE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="aE5-C4-8rq"/>
+                            <constraint firstItem="qLw-U2-UiE" firstAttribute="top" secondItem="dA8-8N-U5O" secondAttribute="bottom" constant="16" id="hfQ-9D-2md"/>
+                            <constraint firstItem="dA8-8N-U5O" firstAttribute="top" secondItem="pbv-tz-Eom" secondAttribute="bottom" constant="16" id="hpe-AF-R4z"/>
+                            <constraint firstItem="Ime-Ax-DOh" firstAttribute="top" secondItem="xBE-fH-bCg" secondAttribute="bottom" constant="16" id="mmU-QI-hdU"/>
+                            <constraint firstItem="VIw-yt-KlR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ouA-Zp-Z2O"/>
+                            <constraint firstItem="pbv-tz-Eom" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pbw-WN-1h1"/>
+                            <constraint firstItem="qLw-U2-UiE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r6a-SG-c9h"/>
+                            <constraint firstItem="qLw-U2-UiE" firstAttribute="top" secondItem="dA8-8N-U5O" secondAttribute="bottom" constant="16" id="rIh-qE-PSW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qLw-U2-UiE" secondAttribute="trailing" constant="32" id="rzv-7K-0OX"/>
+                            <constraint firstItem="pbv-tz-Eom" firstAttribute="top" secondItem="Ime-Ax-DOh" secondAttribute="bottom" constant="16" id="wRr-8j-1Yi"/>
+                            <constraint firstItem="oje-Vc-X9e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="xDD-aj-yUg"/>
+                            <constraint firstItem="5cE-hB-RtE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yCv-aS-ogm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="erX-cI-9ji"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="-27.455357142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w2e-xj-3pD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3lh-Je-Ud1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eyb-h3-48w">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JlF-w7-doY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FjH-Yl-1bk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="-27.455357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sushi" width="250" height="250"/>
+        <namedColor name="anaRenk">
+            <color red="0.44313725490196076" green="0.18431372549019609" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="0.99999994039535522" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk2">
+            <color red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

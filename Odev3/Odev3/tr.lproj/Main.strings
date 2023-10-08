@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "$ 7.86 "; ObjectID = "5cE-hB-RtE"; */
+"5cE-hB-RtE.text" = "₺ 220";
+
+/* Class = "UIButton"; configuration.title = "12Pieces"; ObjectID = "Pjg-MO-INI"; */
+"Pjg-MO-INI.configuration.title" = "12 Parça";
+        
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Pjg-MO-INI"; */
+"Pjg-MO-INI.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "6 Pieces"; ObjectID = "TKu-cU-fxG"; */
+"TKu-cU-fxG.configuration.title" = "6 Parça";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TKu-cU-fxG"; */
+"TKu-cU-fxG.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Add to Cart"; ObjectID = "VIw-yt-KlR"; */
+"VIw-yt-KlR.configuration.title" = "Sepete Ekle";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VIw-yt-KlR"; */
+"VIw-yt-KlR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "dA8-8N-U5O"; */
+"dA8-8N-U5O.text" = "Teslimat";
+
+/* Class = "UILabel"; text = "Golden Dragon"; ObjectID = "oje-Vc-X9e"; */
+"oje-Vc-X9e.text" = "Golden Dragon";
+
+/* Class = "UILabel"; text = "15 min"; ObjectID = "pbv-tz-Eom"; */
+"pbv-tz-Eom.text" = "15 dk";
+
+/* Class = "UILabel"; text = "Best Sushi in Town!!"; ObjectID = "qLw-U2-UiE"; */
+"qLw-U2-UiE.text" = "Şehirdeki En iyi Sushi!!";
+
+/* Class = "UIButton"; configuration.title = "8 Pieces"; ObjectID = "vei-qh-bSe"; */
+"vei-qh-bSe.configuration.title" = "8 Parça";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vei-qh-bSe"; */
+"vei-qh-bSe.normalTitle" = "Button";
