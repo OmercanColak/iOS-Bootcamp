@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0E639B0A2B84E7140085F35D /* KisilerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E639B092B84E7140085F35D /* KisilerHucre.swift */; };
+		0ECD1E112B90A4E300277FCE /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECD1E102B90A4E300277FCE /* RxBlocking */; };
+		0ECD1E132B90A4E300277FCE /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECD1E122B90A4E300277FCE /* RxBlocking-Dynamic */; };
+		0ECD1E152B90A4E300277FCE /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECD1E142B90A4E300277FCE /* RxCocoa */; };
+		0ECD1E172B90A4E300277FCE /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECD1E162B90A4E300277FCE /* RxCocoa-Dynamic */; };
+		0ECD1E192B90A4E300277FCE /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECD1E182B90A4E300277FCE /* RxRelay */; };
+		0ECD1E1B2B90A4E300277FCE /* RxRelay-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECD1E1A2B90A4E300277FCE /* RxRelay-Dynamic */; };
+		0ECD1E1D2B90A4E300277FCE /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECD1E1C2B90A4E300277FCE /* RxSwift */; };
+		0ECD1E1F2B90A4E300277FCE /* RxSwift-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECD1E1E2B90A4E300277FCE /* RxSwift-Dynamic */; };
+		0ECD1E262B90A51100277FCE /* KisilerDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD1E252B90A51100277FCE /* KisilerDaoRepository.swift */; };
+		0ECD1E292B90A54C00277FCE /* AnasayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD1E282B90A54C00277FCE /* AnasayfaViewModel.swift */; };
+		0ECD1E2B2B90A56D00277FCE /* KisiKayitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD1E2A2B90A56D00277FCE /* KisiKayitViewModel.swift */; };
+		0ECD1E2D2B90A59300277FCE /* KisiDetayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD1E2C2B90A59300277FCE /* KisiDetayViewModel.swift */; };
 		0ED1BE962B74DFA2004229C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED1BE952B74DFA2004229C6 /* AppDelegate.swift */; };
 		0ED1BE982B74DFA2004229C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED1BE972B74DFA2004229C6 /* SceneDelegate.swift */; };
 		0ED1BE9A2B74DFA2004229C6 /* Anasayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED1BE992B74DFA2004229C6 /* Anasayfa.swift */; };
@@ -21,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		0E639B092B84E7140085F35D /* KisilerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerHucre.swift; sourceTree = "<group>"; };
+		0ECD1E252B90A51100277FCE /* KisilerDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerDaoRepository.swift; sourceTree = "<group>"; };
+		0ECD1E282B90A54C00277FCE /* AnasayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaViewModel.swift; sourceTree = "<group>"; };
+		0ECD1E2A2B90A56D00277FCE /* KisiKayitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiKayitViewModel.swift; sourceTree = "<group>"; };
+		0ECD1E2C2B90A59300277FCE /* KisiDetayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiDetayViewModel.swift; sourceTree = "<group>"; };
 		0ED1BE922B74DFA2004229C6 /* KisilerUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KisilerUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED1BE952B74DFA2004229C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ED1BE972B74DFA2004229C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +55,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECD1E1F2B90A4E300277FCE /* RxSwift-Dynamic in Frameworks */,
+				0ECD1E192B90A4E300277FCE /* RxRelay in Frameworks */,
+				0ECD1E172B90A4E300277FCE /* RxCocoa-Dynamic in Frameworks */,
+				0ECD1E1B2B90A4E300277FCE /* RxRelay-Dynamic in Frameworks */,
+				0ECD1E152B90A4E300277FCE /* RxCocoa in Frameworks */,
+				0ECD1E112B90A4E300277FCE /* RxBlocking in Frameworks */,
+				0ECD1E132B90A4E300277FCE /* RxBlocking-Dynamic in Frameworks */,
+				0ECD1E1D2B90A4E300277FCE /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +75,24 @@
 				0E639B092B84E7140085F35D /* KisilerHucre.swift */,
 			);
 			path = tableView;
+			sourceTree = "<group>";
+		};
+		0ECD1E242B90A4F900277FCE /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				0ECD1E252B90A51100277FCE /* KisilerDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		0ECD1E272B90A53900277FCE /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0ECD1E282B90A54C00277FCE /* AnasayfaViewModel.swift */,
+				0ECD1E2A2B90A56D00277FCE /* KisiKayitViewModel.swift */,
+				0ECD1E2C2B90A59300277FCE /* KisiDetayViewModel.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 		0ED1BE892B74DFA2004229C6 = {
@@ -87,6 +129,7 @@
 		0ED1BEA92B74E03F004229C6 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				0ECD1E242B90A4F900277FCE /* repo */,
 				0ED1BEAB2B74E06D004229C6 /* entity */,
 			);
 			path = data;
@@ -95,6 +138,7 @@
 		0ED1BEAA2B74E049004229C6 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				0ECD1E272B90A53900277FCE /* viewModel */,
 				0E639B082B84E6EF0085F35D /* tableView */,
 				0ED1BEAC2B74E078004229C6 /* views */,
 			);
@@ -135,6 +179,16 @@
 			dependencies = (
 			);
 			name = KisilerUygulamasi;
+			packageProductDependencies = (
+				0ECD1E102B90A4E300277FCE /* RxBlocking */,
+				0ECD1E122B90A4E300277FCE /* RxBlocking-Dynamic */,
+				0ECD1E142B90A4E300277FCE /* RxCocoa */,
+				0ECD1E162B90A4E300277FCE /* RxCocoa-Dynamic */,
+				0ECD1E182B90A4E300277FCE /* RxRelay */,
+				0ECD1E1A2B90A4E300277FCE /* RxRelay-Dynamic */,
+				0ECD1E1C2B90A4E300277FCE /* RxSwift */,
+				0ECD1E1E2B90A4E300277FCE /* RxSwift-Dynamic */,
+			);
 			productName = KisilerUygulamasi;
 			productReference = 0ED1BE922B74DFA2004229C6 /* KisilerUygulamasi.app */;
 			productType = "com.apple.product-type.application";
@@ -163,6 +217,9 @@
 				Base,
 			);
 			mainGroup = 0ED1BE892B74DFA2004229C6;
+			packageReferences = (
+				0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 0ED1BE932B74DFA2004229C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,9 +251,13 @@
 				0E639B0A2B84E7140085F35D /* KisilerHucre.swift in Sources */,
 				0ED1BEB02B74E1E2004229C6 /* KisiDetay.swift in Sources */,
 				0ED1BE9A2B74DFA2004229C6 /* Anasayfa.swift in Sources */,
+				0ECD1E262B90A51100277FCE /* KisilerDaoRepository.swift in Sources */,
+				0ECD1E292B90A54C00277FCE /* AnasayfaViewModel.swift in Sources */,
+				0ECD1E2D2B90A59300277FCE /* KisiDetayViewModel.swift in Sources */,
 				0ED1BE962B74DFA2004229C6 /* AppDelegate.swift in Sources */,
 				0ED1BE982B74DFA2004229C6 /* SceneDelegate.swift in Sources */,
 				0ED1BEB22B74E26B004229C6 /* Kisiler.swift in Sources */,
+				0ECD1E2B2B90A56D00277FCE /* KisiKayitViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +480,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0ECD1E102B90A4E300277FCE /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		0ECD1E122B90A4E300277FCE /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		0ECD1E142B90A4E300277FCE /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		0ECD1E162B90A4E300277FCE /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		0ECD1E182B90A4E300277FCE /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		0ECD1E1A2B90A4E300277FCE /* RxRelay-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxRelay-Dynamic";
+		};
+		0ECD1E1C2B90A4E300277FCE /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		0ECD1E1E2B90A4E300277FCE /* RxSwift-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECD1E0F2B90A4E300277FCE /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxSwift-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0ED1BE8A2B74DFA2004229C6 /* Project object */;
 }
